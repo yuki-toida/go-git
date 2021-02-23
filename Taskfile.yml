@@ -1,0 +1,10 @@
+version: "2"
+
+vars:
+  PREFIX:
+
+tasks:
+  default:
+    desc: execute git pull --prune.
+    cmds:
+      - go run ./main.go {{.PREFIX}}
