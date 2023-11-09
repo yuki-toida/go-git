@@ -4,7 +4,7 @@ vars:
   PREFIX:
 
 tasks:
-  default:
+  pull:
     desc: execute git pull --prune.
     cmds:
       - go run ./main.go {{.PREFIX}}
